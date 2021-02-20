@@ -1,0 +1,14 @@
+.iconos_lista{
+	background:#036;
+	background: url(../../imagenes/detalle.png)10px no-repeat;
+	padding:0 0 0 35px;
+	}
+.iconos_lista:hover{
+	color:#FFF;
+	background: url(../../imagenes/detalle_hover.png)10px no-repeat;}
+.fondo:hover{
+	border-radius:4px;
+	background: #13BF00;
+	color:#FFF;
+	text-decoration:none;}
+	

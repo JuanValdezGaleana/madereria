@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+  margin: 0 auto;
+  height:100%;
+  
+}
+
+
+
+@media screen and (max-device-width: 799px) {
+  html { background: url('../imagenes/nubes.jpg') #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+@media screen and (min-device-width: 800px) {
+	video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background:url('../imagenes/nubes.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+.footer{
+	width:100%;
+	background: rgba(51,51,51,0.7);
+	position:fixed;
+	bottom:0;
+	}
+.contenido_footer{
+	text-align:center;
+	color:#FFF;
+	font-family:Arial;
+	font-size:14px;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+.frase{
+  font-family: Arial;
+  font-weight:100; 
+  background:rgba(0,0,0,0.1);
+  color: white;
+  padding: 1rem;
+  margin-top:90px;
+  width: 30%;
+  float: left;
+  font-size: 1.2rem;
+	}
+.esp_login{
+	width:97%;
+	padding-right:3%;
+	 float: left;
+	 text-align:right;
+	 font-family:Arial, Helvetica, sans-serif;
+	 color:#FFF;
+	 font-size:1.5em;
+	 margin-top:100px;
+	 text-align:center;
+	}
+.cont_login{
+	/*float:right;*/
+	margin:0 auto;
+	width:250px;}
+.boton_transparente{
+	background:none;
+	color:#fff;
+	border-style: solid;
+    border-width: 1px;
+	font-size:.8em;}
+.boton_transparente:hover{
+	background: #00C19B;}
+.imput_transparente	{
+	background:none;
+	color:#fff;
+	border-style: solid;
+    border-width: 1px;
+	font-size:.5em;
+	}
+.esp_menu{
+	height:60px;
+	width:97.5%;
+	/*background: #00C19B;*/
+	background: rgba(62,153,253,0.8);
+	color:#fff;
+	position:fixed;
+	margin:10px 10px 10px 10px;
+	border-radius:4px;
+	padding:5px;
+}
+.logomenu{
+	float:left;}
+.tituloMenu{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2em;
+	display:block;
+	float:left;
+	height:35px;
+	padding:10px 0 10px 20px;}
+
+.espacio_video{
+	width:100%;
+	height:740px;
+	}
+
+.nombremenu{
+	float:left;}
+.esp_iconos{
+	width:100%;
+	color:#FFF;
+	float:left;
+	text-align:center;
+	margin-top:100px;}
+.cont_ic{
+	width:calc(100% / 3);
+	float:left;}
+.esp_ic{
+	width:100%;}
+.esp_letras{
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font-family:Arial;}
+}
+

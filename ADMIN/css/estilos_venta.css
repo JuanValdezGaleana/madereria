@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lista_productos_vendidos{
+	width:600px;
+	float:left;
+	}
+	
+.datos_venta{
+	width:400px;
+	float:left;}
+	
+@font-face {
+font-family:Digiface;
+src: url(../fonts/DIGIFACE.TTF);
+}
+
+.pantalla_total{
+	font-family: Digiface;
+	background:#000;
+	color:#0C0;
+	font-size:40px;
+	}
+	
+.atencion{
+	background:#F00;
+	color:#FFF;
+	text-decoration:none;
+	}
+
+.bot_buscar{
+	color:#FFF;
+	background: #FF9224;
+	border-radius:5px;
+	text-decoration:none;
+	font-size:22px;
+	height:25px;
+	padding:20px 0 20px 0;
+	-webkit-transition:-webkit-transform 0.5s; /* For Safari 3.1 to 6.0 */
+	transition: transform 0.5s;
+	}
+.bot_buscar:hover{
+	-webkit-transform:scale(1.05,1.05); /* Chrome, Safari, Opera */
+	transform:scale(1.05,1.05);
+	text-shadow:1px 1px #666;
+	}
+.esp_entracod{
+	color:#FFF;
+	background:#84E109;
+	border-radius:5px 5px 0 0;
+	text-shadow:1px 1px #666;
+	}
+.esp_estraGranel{
+    color:#FFF;
+	background:#84E109;
+	text-shadow:1px 1px #666;
+	border-radius:0 0 0 0;
+	}
+.esp_recarga{
+	color:#FFF;
+	background:#84E109;
+	text-shadow:1px 1px #666;
+	border-radius:0 0 5px 5px;
+	}
+.esp_efectivo{
+    color:#FFF;
+	background: #18AAF8;
+	border-radius: 5px 5px 5px 5px;
+	margin:3px;
+	text-shadow:1px 1px #666;
+	}
+.im_bus{
+	width:40px;
+	float:left;
+	margin-left:45px;
+	/*background: url('../../imagenes/buscar3.png') top center no-repeat;*/
+	}
+.texto_buscar{
+	width:250px;
+	float:left;
+	}
+.button {
+	height:38px;
+	font-family: Britannic Bold;
+	display:inline-block;
+	padding:0 24px;
+	margin-left:2px;
+	margin-bottom:2px;
+	font-size:14px;
+	line-height:38px;
+	color: #FFF;
+	text-shadow:1px 1px #666;
+	border:1px solid #999;
+	background-image:url(../imagenes/bgboton1.jpg);
+	/*background: #f2f2f2;*/
+	/*box-shadow:0 0 2px #bbb;*/
+	cursor:pointer;
+	text-decoration:none;
+	border-radius:1px;
+}
+.button:hover {}
+
+.button:active { background-image:url(../imagenes/bgboton2.jpg);}

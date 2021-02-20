@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*input[type="text"] {background: none repeat scroll 0 0 #F9F9F9; border: 1px solid #8E9BA9; padding: 5px; width:200px;}*/
+
+/*input[type="text"] { border:0px;}*/
+.cont_aum_cons{
+	width:100%;
+	float:left;}
+.bordes_formulario{
+	border:0px;
+	background:none;
+	color:#000;
+	}
+.aumentar_cantidad{
+	width:35%;
+	float:left;
+	}
+.mostrar_existencia{
+	width:65%;
+	float:left;
+	padding:0 0px 0 0px;
+	}
+.alertaCant{
+	color:#F00;}
+.lista_busq{
+	color:#000;
+	display:block;
+	text-decoration:none;
+	
+	}
+.hover_lista_b:hover{
+text-shadow:#000000;
+background-color: #B4FB9B;
+color:#FFF;
+}
+
+.alineacion_numeros{
+	text-align:right;}
+.ancho_form{
+	width:95%;}
+
+
+/*#miTabla tr:nth-child(odd) {
+   background-color: #DDD;
+   color:#777
+}
+
+#miTabla tr:nth-child(even) {
+   background-color: #666;
+   color:#FFF;
+}*/
+/*.tr:nth-child(odd){
+    background: #FFF;
+ 
+}
+ 
+.tr:nth-child(even){
+    background: #E8E8E8;
+ 
+}*/
+/*.ttrr:hover{
+	color: #9FC;
+	background: #1AA305;}*/

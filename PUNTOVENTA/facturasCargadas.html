@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="gb18030">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/1estilos.css" media="screen">
+    <link rel="stylesheet" href="css/alta.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/menu.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="DataTables/datatables.min.css">
+    
+</head>
+<body>
+    <div class="espacio_menu">
+        <ul id="menu">
+         
+            <li class="menu_right"><a href="../aut_logout.php" >CERRAR SESIÓN</a></li>
+            <li class="menu_right"><a href="inventario.html" >INVENTARIO</a></li>
+            <li class="menu_right menu_activo">ALTAS<!-- Begin 3 columns Item -->
+             <div class="dropdown_3columns align_right"><!-- Begin 3 columns container -->
+               <div class="col_1">
+                   <ul class="greybox">
+                       <li><a href="alta_productos.php">ALTA PRODUCTOS</a></li>
+                       <li><a href="alta_factura.html">ALTA FACTURAS</a></li>
+                       <li><a href="facturasCargadas.html">FACTURAS CARGADAS</a></li>
+                                           
+                   </ul>   
+               </div>
+           </div><!-- End 3 columns container -->
+         </li><!-- End 3 columns Item -->
+            <li class="menu_right"><a href="almacen.php" >ALMACEN</a></li>
+            <li class="menu_right "><a href="corte_diario_t.php" >CORTE DIARIO</a></li>
+            
+           
+                   <!-- End 3 columns Item -->
+          <li class="menu_right "><a href="index.php" >PUNTO DE VENTA</a></li>
+         <!--<a href="index.php"          ><li class="menu_right menu_activo">PUNTO DE VENTA</li></a>-->  
+        </ul>
+        </div>
+        <div class="col-12 p-3 text-center">
+            <h2>Facturas cargadas</h2>
+        </div>
+        <section class="container">
+
+            <table id="tbFacturas" class="display table table-sm" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Num. factura</th>
+                        <th>Código</th>
+                        <th>Producto</th>
+                        <th>Fecha de carga</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Num. factura</th>
+                        <th>Código</th>
+                        <th>Producto</th>
+                        <th>Fecha de carga</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </tfoot>
+            </table>
+         
+        </section>
+        <section class="col-12">
+            <!-- Modal -->
+            <div class="modal fade" id="modalDetalle" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" id="modalContent">
+                    
+                </div>
+                </div>
+            </div>
+        </section>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="DataTables/datatables.min.js"></script>
+    <script src="js/mainFact.js"></script>
+    
+</body>
+</html>

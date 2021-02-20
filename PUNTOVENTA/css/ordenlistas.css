@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flecha_up{
+	float:left;
+	width:30px;
+	height:16px;
+	background:url(../../imagenes/up.png);}
+
+.flecha_down{
+	float:left;
+	width:30px;
+	height:16px;
+	margin-left:10px;
+	background:url(../../imagenes/down.png);}
+
+.flecha_up:hover{
+	background:url(../../imagenes/uph.png);
+	
+	}
+.flecha_down:hover{
+	background:url(../../imagenes/downh.png);
+	
+	}
+
+.flecha_up:active{
+	background:url(../../imagenes/upP.png);
+	}
+.flecha_down:active{
+	background:url(../../imagenes/downP.png);
+	}

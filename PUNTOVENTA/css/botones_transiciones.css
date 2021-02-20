@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flotante1{
+	 position: fixed;
+	 color:#FFF;
+	 bottom: 0px;
+	 left: 70%;
+	 
+	 width: 100px;
+	 height: 10px;
+	 
+	 background: #F90;
+	 border-radius: 5px 5px 0 0;
+	 -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
+	
+	
+	/*word-wrap: break-word;*/
+	text-overflow:ellipsis;
+	text-align:center;
+	padding:10px 0 0 0;
+	
+	box-shadow: 10px 10px 5px #888888;
+	 opacity: 0.8;
+	
+	}
+	.flotante1:hover {
+    height: 40px;
+	 opacity: 1;
+}
+
+.flotante2{
+	 position: fixed;
+	 color:#FFF;
+	 bottom: 0px;
+	 left: 60%;
+	 
+	 width: 100px;
+	 height: 10px;
+	 
+	 background: #0C0;
+	 border-radius: 5px 5px 0 0;
+	 -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
+	
+	
+	/*word-wrap: break-word;*/
+	text-overflow:ellipsis;
+	text-align:center;
+	padding:10px 0 0 0;
+	
+	box-shadow: 10px 10px 5px #888888;
+	 opacity: 0.8;
+	
+	}
+	.flotante2:hover {
+    height: 40px;
+	 opacity: 1;
+}

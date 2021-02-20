@@ -1,0 +1,129 @@
+.surtir_espacio{
+	height:50px;
+	margin:0 auto;
+	background: #D0FFCA;
+	box-shadow:0 0 20px #333333;
+	}
+.surtir_menu{
+	width:1000px;
+	height:50px;
+	margin:auto;
+	}
+.surtir_logo{
+	height:50px;
+	width:60px;
+	float:left;
+	text-align:center;}
+.surtir_back{
+	height:46px;
+	width:60px;
+	float:left;
+	text-align:center;}
+.surtir_back:hover{
+	border-style: solid;
+    border-width: 2px;
+	border-color:#090;
+	border-radius:4px}
+.surtir_tit{
+	height:20px;
+	width:300px;
+	float:left;
+	padding:15px 0 15px 0;
+	color: #04A800;
+	}
+.surtir_tit2{
+	height:20px;
+	width:200px;
+	float:left;
+	padding:15px 0 15px 0;
+	color: #04A800;
+	}
+.items_surtir{
+	height:20px;
+	width:120px;
+	display:block;
+	float: right;
+	color:#04A800;
+	text-align:center;
+	padding:15px 0 15px 0;
+	text-decoration:none;
+	transition: transform 0.5s;}
+.items_surtir:hover{
+	-webkit-transform:scale(1.05,1.05); /* Chrome, Safari, Opera */
+	transform:scale(1.05,1.05);
+	color:#FFF;
+	text-shadow:1px 1px #666;
+	background:#04A800;
+	border-radius:3px;
+	text-decoration:none;}
+.items_surtir2{
+	height:20px;
+	width:200px;
+	display:block;
+	float: right;
+	color:#04A800;
+	text-align:center;
+	padding:15px 0 15px 0;
+	text-decoration:none;
+	transition: transform 0.5s;}
+.items_surtir2:hover{
+	-webkit-transform:scale(1.05,1.05); /* Chrome, Safari, Opera */
+	transform:scale(1.05,1.05);
+	color:#FFF;
+	text-shadow:1px 1px #666;
+	background:#04A800;
+	border-radius:3px;
+	text-decoration:none;}
+
+.items_surtir2ln{
+	height:40px;
+	width:150px;
+	display:block;
+	float: right;
+	color:#04A800;
+	text-align:center;
+	padding:5px 0 5px 0;
+	text-decoration:none;
+	transition: transform 0.5s;}
+.items_surtir2ln:hover{
+	-webkit-transform:scale(1.05,1.05); /* Chrome, Safari, Opera */
+	transform:scale(1.05,1.05);
+	color:#FFF;
+	text-shadow:1px 1px #666;
+	background:#04A800;
+	border-radius:3px;
+	text-decoration:none;}
+
+
+.item_surtir_sel{
+	color:#FFF;
+	background: #04A800;}
+.espacio_calendario{
+	width:630px;
+	height:50px;
+	float:left;
+	color:#04A800;
+	}
+.espacio_calendario2{
+	width:530px;
+	height:50px;
+	float: right;
+	color:#04A800;
+	}
+.buscar_cod{
+	width:280px;
+	margin:0 40px 0 0;
+	float:left;
+	}
+.buscar_nombre{
+	width:280px;
+	margin:0 0 0 40px;
+	float:left;}
+.boton_verde{
+	background:#84E109;
+	width:100%;
+	color:#FFF;
+	height:100%;
+	font-size:20px;
+	borfer-radius:5px;
+	}
